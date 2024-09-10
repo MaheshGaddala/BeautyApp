@@ -1,0 +1,146 @@
+.home-bg-container {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.QymjF294COp4fH03EvRnxgHaEK&pid=Api&P=0&h=220');
+  background-color: rgb(14, 14, 13);
+  background-size: cover;
+  width: 100vw;
+  height: 200px;
+  margin: 0px;
+  padding: 10px;
+}
+.home-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.home-desc {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.home-button {
+  color: #ffffff;
+  font-size: 12px;
+  background-color: rgb(175, 40, 137);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media (min-width: 925px) {
+  .home-bg-container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .home-heading {
+    font-size: 40px;
+  }
+  .home-desc {
+    font-size: 20px;
+  }
+  .home-button {
+    font-size: 15px;
+  }
+}
+
+.home-container-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.home-img-1 {
+  height: 150px;
+  width: 150px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.home-container-2 {
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.Ccw1IzBiKguGaVshDEEKAwHaE8&pid=Api&P=0&h=220');
+  background-size: cover;
+  padding: 15px;
+}
+.home-container-heading {
+  color: black;
+  font-size: 20px;
+}
+
+.home-container-desc {
+  color: black;
+  font-size: 16px;
+}
+
+@media (min-width: 925px) {
+  .home-container-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+  }
+  .home-img-1 {
+    height: 350px;
+    width: 350px;
+  }
+  .home-container-heading {
+    font-size: 40px;
+  }
+  .home-container-desc {
+    font-size: 20px;
+    width: 60%;
+  }
+  .home-container-2 {
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+  }
+}
+.home-container-3 {
+  margin-top: 15px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+.sub-container {
+  padding: 15px;
+}
+.making-img {
+  background-size: cover;
+  width: 100vw;
+}
+
+@media (min-width: 925px) {
+  .home-container-3 {
+    display: flex;
+    padding: 15px;
+    padding-bottom: 40px;
+  }
+}
+.home-container-4 {
+  background-color: #1e171c;
+  padding: 15px;
+}
+.bottom-description {
+  color: #9c9499;
+}
+.route-links {
+  color: #9c9499;
+}
+.span-element {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media (min-width: 925px) {
+  .home-container-4 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .bottom-container {
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+  }
+}
